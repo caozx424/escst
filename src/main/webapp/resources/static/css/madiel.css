@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*手机star*/
+ @media screen and (min-width:300px) and (max-width:460px){
+	 	.rw{
+		margin:0px;
+	 } 
+	.form_message input[type=text]{
+	  width:45px;
+   }
+     .form_message span{
+	   font-size:12px;
+	} 
+	  .left-side{
+	   display:none;
+     }
+
+	.header .title{
+	  font-size:12px;
+      padding-left:20%;
+	  line-height:65px;
+    }
+	.header .logo_hx img{
+		width:28px;
+		height:28px;
+	} 
+	.header{
+		height:65px;
+	}
+	
+   .header .Info_add{
+	  position:absolute;
+	  top:50px;
+	  background:#66bbff;
+	  left:0px;
+	  width:100%;
+	  font-size:12px;
+	  height:40px;
+	   
+	}
+	.header .Info_add li{
+		height:40px;
+	}	
+	.header .Info_add img{
+		width:20px;
+		height:20px;
+		margin-top:10px;
+	}
+	 .main_cont{
+	  margin:0px;
+	  width:100%;
+   }
+   .tab_con{
+	   margin:0px;
+	}
+	.tab_book{
+		margin:0 30px;
+	}
+	 
+ }
+ 
+  @media screen and (min-width:460px) and (max-width:720px){
+	 	.rw{
+		margin-top:15px;
+	 } 
+	 .tab_book{
+	    margin:0 10px;
+     }
+	 .Users{
+		 margin-left:10px;
+	 }
+	.tab_con{
+		margin:0 10px;
+	}
+   .header .logo_hx{
+	  left:3%;
+	  top:20px;
+    }	
+	.header{
+		overflow:hidden;
+	}
+    .left-side{
+	   display:none;
+   }
+   .main_cont{
+	  margin-top:60px;
+	  min-width:460px;
+	  max-width:800px;
+	  width:100%;
+   }
+   .foot_er{
+	   width:100%;
+	   left:0px;
+	   font-size:14px;
+   }
+   .header .Info_add{
+	  position:absolute;
+	  top:70px;
+	  background:#66bbff;
+	  left:0px;
+	  width:100%;
+	  font-size:12px;
+	  
+	}
+   
+	
+	.header .title{
+	  font-size:16px;
+      padding-left:20%;
+    }
+	 .nav_page a{
+	   margin-left:0px;
+       width:18px; 
+       height:20px;
+   }
+   .nav_page .omit{
+      width:15px; 
+      height:20px;
+   }
+   .nav_page .jump_con{
+	   width:20px;
+   }
+   .form_message input[type=text]{
+	  width:45px;
+   }
+   .form_message span{
+	   font-size:12px;
+	} 
+	.nav_page p{
+	  margin-right:0px;
+    }
+	#messuser{top:125px;z-index:3;}
+	
+}
+ @media screen and (min-width:720px) and (max-width:780px){
+	 	.rw{
+		margin-top:15px;
+	 } 
+	 .tab_book{
+	    margin:0 10px;
+     }
+	 .Users{
+		 margin-left:10px;
+	 }
+	.tab_con{
+		margin:0px;
+	}
+   .header .logo_hx{
+	  left:3%;
+	  top:20px;
+    }	
+	.header{
+		overflow:hidden;
+	}
+    .left-side{
+	   display:none;
+   }
+   .main_cont{
+	  margin-top:60px;
+      width:100%;
+   }
+   .tab_con{
+	   width:100%;
+
+	}
+   .foot_er{
+	   width:100%;
+	   left:0px;
+	   font-size:14px;
+	   text-align:center;
+   }
+   .header .Info_add{
+	  position:absolute;
+	  top:70px;
+	  background:#66bbff;
+	  left:0px;
+	  width:100%;
+	  font-size:12px;
+	  padding-left:39%;
+	  
+	}
+   
+	
+	.header .title{
+	  font-size:16px;
+      padding-left:20%;
+    }
+	 .nav_page a{
+	   margin-left:10px;
+       width:18px; 
+       height:20px;
+   }
+   .nav_page .omit{
+      width:15px; 
+      height:20px;
+   }
+   .nav_page .jump_con{
+	   width:20px;
+   }
+   .form_message input[type=text]{
+	  width:45px;
+   }
+   .form_message span{
+	   font-size:12px;
+	} 
+	.nav_page p{
+	  margin-right:10px;
+    }
+	#messuser{top:125px;z-index:3; right:20px;}
+	
+}
+/*手机end*/
+
+/*平板star*/
+  @media screen and (min-width:780px) and (max-width:1100px){
+	.rw{
+		margin:0px;
+	 } 
+    .header{
+		position:relative;
+	}
+	.nav_page p{
+	  margin-right:0px;
+    }
+	.header .title{
+	  font-size:16px;
+      padding-left:10%;
+    }
+	.header .Info_add{
+		font-size:14px;
+		margin-right:60px;
+	}
+	.header .Info_add li{
+	   padding:10px 10px;
+	   line-height:40px;
+    }
+	.header .Info_add img{
+	  margin-top:10px;
+   }
+   .header .map_add .tit_info{
+	 padding:0 10px;
+   }
+   .header .logo_hx{
+	  left:2%;
+	}
+   .left-side{
+	   display:none;
+   }
+  .main_cont{
+	  width:100%;
+
+   }
+ 
+ 
+   .Info_add .message img{
+	margin-left:10px;
+	margin-top:20px;
+   }
+   .Info_add .message{background-position:10px; margin-left:0px; padding-left:30px!important;}
+   
+   .nav_page a{
+	   margin-left:3px;
+   }
+   .foot_er{
+	   width:100%;
+	   left:0px;
+
+	   font-size:14px;
+   }
+} 

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.table_page{float: right;font-size: 12px;width: auto;height: 20px;line-height: 20px;margin-top: 2px;}
+
+.table_page span,.table_page a{width:auto;height:18px;line-height:18px;display: block;padding: 0 0.8em;border:1px solid #2a83a8;background: #deedf4;float: left;/* color: #54504f; */text-decoration: none;margin:0 2px;font-size:12px;}
+
+.table_page span{color: #afc8d3;border-color: #9eabb1}
+
+.table_page a{color: #095b7e;border-color: #2a83a8}
+
+.table_page a:hover{background-color: #4fabd2;/* border-color: #b8bfc4; */}
+
+.table_page a.on{background-color: #329dca;color: #fff;/* border-color: #b8bfc4; */}
