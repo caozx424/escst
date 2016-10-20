@@ -7,10 +7,9 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Repository;
 import com.escst.hxgt.common.page.PageResult;
-import com.escst.hxgt.dao.BaseDao;
 
 /**
- * mongodb数据泛型dao类
+ * 操作mongodb的dao公共类
  * @author caozx
  */
 @Repository(value = "mongoDBBaseDao")
