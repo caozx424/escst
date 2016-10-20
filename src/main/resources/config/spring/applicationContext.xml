@@ -46,6 +46,6 @@
 		<property name="defaultEncoding" value="utf-8"></property>
 	</bean>
 
-	 <import resource="classpath:/config/mongodb/mongodb.xml"/>
-	 <import resource="classpath:/config/spring/spring-memcached.xml"/>
+	 <import resource="classpath:config/mongodb/mongodb.xml"/>
+	 <import resource="classpath:config/spring/spring-memcached.xml"/>
 </beans>
