@@ -10,8 +10,10 @@ import com.escst.hxgt.common.page.PageResult;
 import com.escst.hxgt.dao.type.TypeDao;
 import com.escst.hxgt.entity.type.TypeEntity;
 import com.escst.hxgt.service.type.TypeService;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service("typeService")
+@Transactional
 public class TypeServiceImpl implements TypeService {
 	
 	@Autowired
@@ -25,7 +27,7 @@ public class TypeServiceImpl implements TypeService {
 		int pageSize = (Integer)map.get("pageSize");
 		page.setCurrentPage(currentPage);
 		page.setPageSize(pageSize);
-		List<TypeEntity> list =typeDao.findByQuery(TypeEntity.class, query, page);
+		List<TypeEntity> list = typeDao.findByQuery(TypeEntity.class, query, page);
 		return list;
 	}
 
